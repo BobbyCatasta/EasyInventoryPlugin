@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Project Overview
+## 🧩 Overview
 
 This plugin offers a modular and flexible inventory system suitable for various gameplay scenarios:
 
@@ -16,9 +16,7 @@ This plugin offers a modular and flexible inventory system suitable for various 
 
 ---
 
-## 🏗️ Technical Architecture
-
-### 🧩 Core Components
+## 🛠️ Components
 
 **`UInventoryStorageComponent`**  
 - Actor component for inventory storage and management  
