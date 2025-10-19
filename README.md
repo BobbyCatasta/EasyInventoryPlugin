@@ -30,7 +30,7 @@ This plugin offers a modular and flexible inventory system suitable for various 
 - Thread-safe operations with proper lifecycle management  
 - Blueprint-callable interface for seamless integration  
 
-### 🤝 UInventoryTradeSession (UObject )### 
+### 🤝 UInventoryTradeSession (UObject ) ### 
 - Dedicated trade session management between multiple actors  
 - Bidirectional item transfer system  
 - Transaction-based inventory operations  
