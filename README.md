@@ -1,6 +1,6 @@
 # 🎮 Easy Inventory Plugin - Unreal Engine System
 
-**Easy Inventory Plugin** is a professional-grade Unreal Engine plugin that provides a comprehensive inventory management system with asynchronous scanning capabilities. It demonstrates advanced C++ programming, Unreal Engine architecture, and multi-threading implementation.
+**Easy Inventory Plugin** is an Unreal Engine plugin that provides a comprehensive inventory management system with asynchronous scanning capabilities.
 
 ---
 
