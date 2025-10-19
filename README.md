@@ -18,7 +18,7 @@ This plugin offers a modular and flexible inventory system suitable for various 
 
 ## 🛠️ Components
 
-### 📦 UInventoryStorageComponent (Actor Component)###
+### 📦 UInventoryStorageComponent (Actor Component) ###
 - Actor component for inventory storage and management  
 - TMap-based item system with quantity tracking  
 - Blueprint-exposed properties for designer accessibility  
@@ -42,7 +42,7 @@ This plugin offers a modular and flexible inventory system suitable for various 
 - Proper thread lifecycle management  
 - Safe cross-thread communication with the main game thread  
 
-### 🧑‍🚀 AActorWithInventory (Actor) ###
+### 🧑‍🚀 ActorWithInventory (Actor) ###
 - Base actor class with built-in inventory support  
 - Event-driven interaction system  
 - `BlueprintImplementableEvents` for designer customization  
