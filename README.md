@@ -18,31 +18,31 @@ This plugin offers a modular and flexible inventory system suitable for various 
 
 ## 🛠️ Components
 
-**`UInventoryStorageComponent`**  
+### 📦 UInventoryStorageComponent (Actor Component)###
 - Actor component for inventory storage and management  
 - TMap-based item system with quantity tracking  
 - Blueprint-exposed properties for designer accessibility  
 - Modular design allowing attachment to any actor  
 
-**`UInventorySubsystem`**  
+### 🌐 UInventorySubsystem (GameInstance Subsystem) ###  
 - GameInstance Subsystem for global inventory management  
 - Central hub for trade sessions and actor tracking  
 - Thread-safe operations with proper lifecycle management  
 - Blueprint-callable interface for seamless integration  
 
-**`UInventoryTradeSession`**  
+### 🤝 UInventoryTradeSession (UObject )### 
 - Dedicated trade session management between multiple actors  
 - Bidirectional item transfer system  
 - Transaction-based inventory operations  
 - Clean separation of trade logic from core inventory  
 
-**`FInventoryScanThread`**  
+### ⚡ FInventoryScanThread (FRunnable) ### 
 - Custom `FRunnable` implementation for asynchronous operations  
 - Non-blocking inventory scanning and processing  
 - Proper thread lifecycle management  
 - Safe cross-thread communication with the main game thread  
 
-**`AActorWithInventory`**  
+### 🧑‍🚀 AActorWithInventory (Actor) ###
 - Base actor class with built-in inventory support  
 - Event-driven interaction system  
 - `BlueprintImplementableEvents` for designer customization  
@@ -112,5 +112,3 @@ This plugin offers a modular and flexible inventory system suitable for various 
 - **Error Handling**: robust thread safety and null checking  
 
 ---
-
-This project showcases the ability to deliver **production-ready systems** that balance **performance**, **usability**, and **maintainability**, while demonstrating deep understanding of Unreal Engine and modern C++ development practices.
